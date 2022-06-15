@@ -1,6 +1,13 @@
 $primary-color: green;
 
+#lipi {
+  fill:blue;
+}
+
 #lipi:hover {
   color: $primary-color;
   background-color: yellow;
+}
+.lp{
+  background-color:azure;
 }
