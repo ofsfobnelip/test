@@ -1,6 +1,8 @@
+import type { NextPage } from 'next'
 import Head from 'next/head'
 import styles from '../styles/main.module.scss'
-export default function Home() {
+
+const Home: NextPage = () => {
   return (
     <>
       <Head>
@@ -13,3 +15,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home
