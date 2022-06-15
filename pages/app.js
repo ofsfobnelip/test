@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/test.module.scss'
+import styles from '../styles/main.module.scss'
 export default function Home() {
   return (
     <>
@@ -7,8 +7,8 @@ export default function Home() {
         <title>Lipi Tester</title>
       </Head>
 
-      <div id={styles.lipi} className={`${styles.lipi} ${styles.lp} inline-block rounded-md px-2 py-2 lipi my-2 mx-2 text-4xl font-semibold`}>
-        Lipi Lekhika Using Fastapi
+      <div className={`${styles.lipi} p-2 m-2`}>
+        Lipi Lekhika Using FastAPI and Express.js
       </div>
     </>
   )
