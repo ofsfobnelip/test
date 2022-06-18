@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 import styles from '../styles/main.module.scss'
 import Head from 'next/head'
 import Link from 'next/link'
-import { useState } from 'react'
 const Home: NextPage = () => {
   return (
     <div>
