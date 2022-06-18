@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         Lipi Lekhika using Tailwind CSS
       </div>
       <div>
-        <Link href='/app'><span className='underline text-blue-800 hover:text-red-700 text-2xl'>App</span></Link>
+        <Link href='/app'><span className='underline cursor-pointer text-blue-800 hover:text-red-700 text-2xl'>App</span></Link>
       </div>
     </div>
   )

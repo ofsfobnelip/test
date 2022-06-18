@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         <title>TextArea</title>
       </Head>
       <div>
-        <Link href='/'><span className='underline text-blue-800 hover:text-red-700 text-2xl'>Home</span></Link>
+        <Link href='/'><span className='underline cursor-pointer text-blue-800 hover:text-red-700 text-2xl'>Home</span></Link>
       </div>
       <div>
         <textarea lipi-lang="Hindi" onChange={handleOnChange} value={text} className='block my-2 Lipi-LekhikA' style={{ height: '60%', width: '70%', border: '2px solid black' }}></textarea>
