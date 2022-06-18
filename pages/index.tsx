@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className={`${styles.lipi} p-2`}>
+      <div id="t" className={`${styles.lipi} p-2`}>
         Lipi Lekhika using Tailwind CSS
       </div>
       <div>
