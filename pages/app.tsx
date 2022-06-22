@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>TextArea</title>
+        <title>TextArea New</title>
       </Head>
       <div>
         <Link href='/'><span className='underline cursor-pointer text-blue-800 hover:text-red-700 text-2xl'>Home</span></Link>
