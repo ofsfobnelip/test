@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import React, { useState } from 'react'
 
-const contacts = ["Shubham Anand"];
+const contacts = ["𑀮𑀓𑁆𑀱𑁆𑀫𑀡𑀂"];
 
 const Home: NextPage = () => {
   return <ContactManager data={contacts} />
@@ -36,7 +36,7 @@ function AddPersonForm(props: any) {
         placeholder="Add new contact"
         onChange={handleChange}
         value={person}
-        className='border-2 rounded border-black p-1 text-green-800 outline-none focus:border-blue-800' />
+        className='border-2 rounded border-black p-1 text-green-800 outline-none focus:border-blue-800 focus:shadow-lg focus:shadow-orange-200' />
       <button type="submit" className='m-2 border-blue-800 bg-yellow-200 border-2 p-1 rounded font-semibold'>Add</button>
     </form>
   );
