@@ -6,9 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <Head>
       <meta name="robots" content="noindex"></meta>
     </Head>
-    <div>
-      test parent Element
-    </div>
+    Test Parent Element 
     <Component {...pageProps} />
   </>
 }
