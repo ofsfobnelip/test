@@ -24,7 +24,7 @@ const Home: NextPage = () => {
       <div>
         <About text='Us' />
       </div>
-      <div className='bg-green-200 inline-block p-2'>{amount} Rupees {name}</div>
+      <div className='bg-green-200 inline-block p-2'>₹ {amount} for {name}</div>
       <Script src="https://cdn.jsdelivr.net/gh/ofsfobnelip/lipi/lipilekhika.min.js" strategy='lazyOnload'></Script>
     </>
   )
