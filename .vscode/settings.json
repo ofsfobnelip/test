@@ -5,5 +5,5 @@
     "liveServer.settings.donotShowInfoMsg": true,
     "python.formatting.provider": "black",
     "liveServer.settings.root": "/out",
-    // "liveServer.settings.root": "/api"
+    "liveServer.settings.NoBrowser": true 
 }

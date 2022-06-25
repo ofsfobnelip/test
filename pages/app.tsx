@@ -4,11 +4,13 @@ import Script from 'next/script'
 import Link from 'next/link'
 import About from '../components/About'
 import { useState } from 'react'
+import { useSelector } from 'react-redux'
 const Home: NextPage = () => {
   const [text, setText] = useState("अग्नि-स्खलन-सन्दग्ध-रिपु-वर्तप्रलयः");
   const handleOnChange = (e: any) => {
     setText(e.target.value);
   }
+  const amount=useSelector((state:any)=>state.amount)
   return (
     <>
       <Head>
@@ -21,6 +23,7 @@ const Home: NextPage = () => {
       <div>
         <About text='Us'/>
       </div>
+      <div className='bg-green-200 inline-block p-2'>{amount} Rupees</div>
       <Script src="https://cdn.jsdelivr.net/gh/ofsfobnelip/lipi/lipilekhika.min.js" strategy='lazyOnload'></Script>
     </>
   )
