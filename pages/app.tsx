@@ -10,7 +10,8 @@ const Home: NextPage = () => {
   const handleOnChange = (e: any) => {
     setText(e.target.value);
   }
-  const amount=useSelector((state:any)=>state.amount)
+  const amount = useSelector((state: any) => state.amount)
+  const name = useSelector((state: any) => state.name)
   return (
     <>
       <Head>
@@ -21,9 +22,9 @@ const Home: NextPage = () => {
       </div>
       <textarea lipi-lang="Hindi" onChange={handleOnChange} value={text} className='block my-2 border-2 outline-none rounded p-1 border-black Lipi-LekhikA focus:border-blue-800 focus:shadow-lg h-2/3 w-2/3'></textarea>
       <div>
-        <About text='Us'/>
+        <About text='Us' />
       </div>
-      <div className='bg-green-200 inline-block p-2'>{amount} Rupees</div>
+      <div className='bg-green-200 inline-block p-2'>{amount} Rupees {name}</div>
       <Script src="https://cdn.jsdelivr.net/gh/ofsfobnelip/lipi/lipilekhika.min.js" strategy='lazyOnload'></Script>
     </>
   )

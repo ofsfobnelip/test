@@ -1,7 +1,6 @@
 import '../styles/globals.scss'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import { useState } from 'react'
 import { Provider} from 'react-redux'
 import { store } from '../state/store'
 function MyApp({ Component, pageProps }: AppProps) {

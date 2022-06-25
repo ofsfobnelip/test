@@ -6,7 +6,7 @@ export const Withdaraw = (amount: number) => {
         })
     }
 }
-export const Deplosit= (amount: number) => {
+export const Deplosit = (amount: number) => {
     return (dispatch: Function) => {
         dispatch({
             type: "deposit",
