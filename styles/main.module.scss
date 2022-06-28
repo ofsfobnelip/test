@@ -1,9 +1,7 @@
-// @use 'go'; // to import go.scss
 $primary-color: green;
 
 .lipi {
   background-color: azure;
-  color: red;
   border: 3px solid black;
   @apply inline-block rounded-md text-3xl font-semibold;
 
