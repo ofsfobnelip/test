@@ -9,6 +9,6 @@ $primary-color: green;
 
   &:hover {
     color: $primary-color;
-    background-color: yellow;
+    @apply bg-[yellow];
   }
 }
