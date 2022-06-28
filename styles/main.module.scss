@@ -3,7 +3,7 @@ $primary-color: green;
 .lipi {
   background-color: azure;
   border: 3px solid black;
-  @apply inline-block rounded-md text-3xl font-semibold;
+  @apply inline-block rounded-md text-3xl font-semibold text-[red];
 
   &:hover {
     color: $primary-color;
