@@ -14,7 +14,7 @@ const Home: NextPage = () => {
         Lipi Lekhika using Tailwind CSS
       </div>
       <div className='my-8 mx-4'>
-        <button className='cursor-default text-2xl rounded-xl p-2 font-semibold border-2 border-black text-[red] active:text-[blue] focus:outline-none focus:ring focus:ring-[yellow]'>Test</button>
+        <button className='cursor-default text-2xl rounded-xl p-2 font-semibold border-2 border-black text-[red] active:text-[blue] focus:text-[orangered] focus:outline-none focus:ring focus:ring-[yellow]'>Test</button>
       </div>
       <div>
         <Link href='/app' passHref={true}><a className='underline cursor-pointer text-blue-800 hover:text-red-700 text-2xl'>App</a></Link>
