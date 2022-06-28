@@ -1,4 +1,4 @@
-const reducer: any = (state = 12, action: { type: string, payLoad: number }) => {
+const reducer = (state = 12, action: { type: string, payLoad: number }) => {
     switch (action.type) {
         case "withdraw":
             if (state - action.payLoad < 0)
