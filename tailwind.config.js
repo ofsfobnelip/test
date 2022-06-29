@@ -4,7 +4,6 @@ module.exports = {
     "./pages/**/*.{jsx,tsx}",
     "./components/**/*.{jsx,tsx}",
   ],
-  important: "#__next",
   theme: {
     extend: {},
   },
