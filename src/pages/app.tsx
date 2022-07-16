@@ -20,7 +20,7 @@ const Home: NextPage = () => {
       <div>
         <Link href='/'><a className='underline cursor-pointer text-blue-800 hover:text-red-700 text-2xl'>Home</a></Link>
       </div>
-      <textarea lipi-lang="Hindi" onChange={handleOnChange} value={text} className='block my-2 border-2 outline-none rounded p-1 border-black Lipi-LekhikA focus:border-blue-800 focus:shadow-lg h-2/3 w-2/3'></textarea>
+      <textarea lipi-lang="Telugu" onChange={handleOnChange} value={text} className='block my-2 border-2 outline-none rounded p-1 border-black Lipi-LekhikA focus:border-blue-800 focus:shadow-lg h-2/3 w-2/3'></textarea>
       <div>
         <About text='Us' />
       </div>
